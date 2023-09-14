@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+ <html>
+  <body> 
+      <h1>Error: cant acess local variables</h1>
+      <script>
+      var greet = "Global variable"; // global variable 
+      function myfuunction(){
+      var msg = "local variable!"; // local variable 
+alert(greet + "with" + msg); // acess global and local variable
+     }
+     myfunction();
